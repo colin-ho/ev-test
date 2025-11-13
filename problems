@@ -1,0 +1,9 @@
+would be nice to have a -h on the cli
+first ev run main.py i get this error
+    """
+    fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+    Use '--' to separate paths from revisions, like this:
+    'git <command> [<revision>...] -- [<file>...]'
+    Error getting git information: Command '['git', 'rev-parse', 'HEAD']' returned non-zero exit status 128.
+    Error: Make sure you're in a git repository with committed changes
+    """
