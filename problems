@@ -7,3 +7,4 @@ first ev run main.py i get this error
     Error getting git information: Command '['git', 'rev-parse', 'HEAD']' returned non-zero exit status 128.
     Error: Make sure you're in a git repository with committed changes
     """
+init       Initialize an Eventual project in the current git repository. -> Is it an Eventual project or Daft cloud project
