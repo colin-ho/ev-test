@@ -17,3 +17,11 @@ First run. Yay, but takes a while in the cli for it to tell me it failed.
     [2025-11-14 07:39:41] ModuleNotFoundError: No module named 'ray'
     Run 9359543d-987e-446d-b38e-43789092b8b8 failed! Please check the logs. # this part took a while
     """
+Installed ray. but now get this error:
+    """
+    [2025-11-14 07:45:39] Traceback (most recent call last):
+    [2025-11-14 07:45:39] File "/app/entrypoint.py", line 16, in <module>
+    [2025-11-14 07:45:39] from runtime.object_injection import inject_objects_into_args
+    [2025-11-14 07:45:39] ModuleNotFoundError: No module named 'runtime'
+    """
+
