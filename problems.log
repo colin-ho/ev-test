@@ -1,0 +1,19 @@
+would be nice to have a -h on the cli
+first ev run main.py i get this error
+    """
+    fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+    Use '--' to separate paths from revisions, like this:
+    'git <command> [<revision>...] -- [<file>...]'
+    Error getting git information: Command '['git', 'rev-parse', 'HEAD']' returned non-zero exit status 128.
+    Error: Make sure you're in a git repository with committed changes
+    """
+init       Initialize an Eventual project in the current git repository. -> Is it an Eventual project or Daft cloud project
+if i make a project in the ui first, and then clone the repo, and then use ev sdk to run, it requires me to ev init again, which creates a new project.
+First run. Yay, but takes a while in the cli for it to tell me it failed.
+    """
+    [2025-11-14 07:39:41] Traceback (most recent call last):
+    [2025-11-14 07:39:41] File "/app/entrypoint.py", line 14, in <module>
+    [2025-11-14 07:39:41] import ray
+    [2025-11-14 07:39:41] ModuleNotFoundError: No module named 'ray'
+    Run 9359543d-987e-446d-b38e-43789092b8b8 failed! Please check the logs. # this part took a while
+    """
